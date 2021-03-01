@@ -25,7 +25,6 @@ public class TestAccelerometreActivity extends Activity {
 
 
         TextView topView = findViewById(R.id.ViewTop);
-        LinearLayout midView = findViewById(R.id.Layoutmid);
         ScrollView botView = findViewById(R.id.ViewBot);
         TextView accStatus = findViewById(R.id.acceleratorSensorStatus);
         TextView lightStatus = findViewById(R.id.lightSensorStatus);

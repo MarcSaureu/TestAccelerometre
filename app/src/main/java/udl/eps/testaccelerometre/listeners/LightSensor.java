@@ -7,6 +7,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 import udl.eps.testaccelerometre.R;
@@ -44,6 +45,7 @@ public class LightSensor implements SensorEventListener {
             listener_text.setText(status);
             lastUpdate = System.currentTimeMillis();
         }
+        Toast.makeText(this.mainActivity, "New value light sensor = " + light, Toast.LENGTH_SHORT).show();
     }
 
     @Override
